@@ -26,7 +26,7 @@ TOKEN_URL = "https://accounts.spotify,com/api/token"
 # SEARCH_URL = "https://api.spotify.com/v1/search";
 # ARTIST_URL = "https://api.spotify.com/v1/artists/{}/top-tracks";
 
-#basic auth that returns access token
+#basic auth - returns access token
 def auth():
     data = {
         'Content-Type': 'application/x-www-form-urlencoded',
